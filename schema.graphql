@@ -16,3 +16,4 @@ type Review {
     comment: String @search(by: [fulltext])
     rating: Int @search
 }
+
